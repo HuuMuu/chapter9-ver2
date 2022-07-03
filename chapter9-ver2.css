@@ -10,7 +10,7 @@
 }
 
 .main {
-  width: 100%;
+  width: 960px;
   margin: 50px auto;
   display: flex;
   justify-content: center;
@@ -64,11 +64,16 @@ h3 {
   }
   .main {
     flex-direction: column;
+    width: 100%;
   }
   .block {
     margin: 0px 0px 20px 0px;
+    width: 90%;
   }
   .block:nth-last-child(1) {
     margin-bottom: 0px;
+  }
+  .img-1 {
+    width: 90%;
   }
 }
