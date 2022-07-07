@@ -18,18 +18,18 @@
   background-color: #eeeeee;
   width: 300px;
   margin-right: 30px;
+  position: relative;
 }
 .block:nth-last-child(1) {
   margin-right: 0px;
 }
-.setp-block {
-  position: relative
+.img-block {
+  padding: 10px 10px 0px 10px;
 }
 .step-img-1 {
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
-  margin: 10px 10px 15px 10px;
   width: 280px;
   height: 150px;
 }
@@ -38,7 +38,6 @@
  background-image: url(img/flow02.png);
   background-size: cover;
   background-position:bottom;
-  margin: 10px 10px 15px 10px;
   width: 280px;
   height: 150px;
 }
@@ -46,17 +45,19 @@
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
-  margin: 10px 10px 15px 10px;
   width: 280px;
   height: 150px;
 }
 h3 {
+  padding-top: 15px;
   padding-bottom: 5px;
 }
 .text {
   background-color: #ff9a4b;
   color: #ffffff;
   position: absolute;
+  top: 0px;
+  left: 0px;
 }
 .bottom {
   background-color: #aaaaaa;
@@ -70,6 +71,8 @@ h3 {
   .main {
     flex-direction: column;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .block {
     margin: 0px 0px 20px 0px;
@@ -78,16 +81,13 @@ h3 {
   .block:nth-last-child(1) {
     margin-bottom: 0px;
   }
-  .img-1 {
-    width: 95%;
-    background-position: bottom;
+  .step-img-1 {
+    width: 100%;
   }
-  .img-2 {
-    width: 95%;
-    background-position: bottom;
+  .step-img-2 {
+    width: 100%;
   }
-  .img-3 {
-    width: 95%;
-    background-position: bottom;
+  .step-img-3 {
+    width: 100%;
   }
 }
